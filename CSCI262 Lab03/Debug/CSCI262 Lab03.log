@@ -1,0 +1,25 @@
+﻿Build started 10/7/2015 1:27:38 PM.
+     1>Project "Z:\adit\My Documents\Visual Studio 2015\Projects\CSCI262 Lab03\CSCI262 Lab03\CSCI262 Lab03.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp membercheck.cpp simplewordsearch.cpp
+         simplewordsearch.cpp
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2065: 'Vector': undeclared identifier
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2065: 'string': undeclared identifier
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2065: 'player': undeclared identifier
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2065: 'dictionary': undeclared identifier
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2448: 'points': function-style initializer appears to be a function definition
+         membercheck.cpp
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\membercheck.cpp(1): error C2143: syntax error: missing ';' before '<'
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\membercheck.cpp(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\membercheck.cpp(3): error C2143: syntax error: missing ';' before '{'
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\membercheck.cpp(3): error C2447: '{': missing function header (old-style formal list?)
+         Main.cpp
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(10): warning C4018: '<': signed/unsigned mismatch
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(15): warning C4018: '<': signed/unsigned mismatch
+         Generating Code...
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(59): error C4716: 'whos_dishonest': must return a value
+     1>Done Building Project "Z:\adit\My Documents\Visual Studio 2015\Projects\CSCI262 Lab03\CSCI262 Lab03\CSCI262 Lab03.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.15
