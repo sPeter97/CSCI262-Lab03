@@ -1,25 +1,18 @@
-﻿Build started 10/7/2015 1:27:38 PM.
+﻿Build started 10/9/2015 3:01:13 PM.
      1>Project "Z:\adit\My Documents\Visual Studio 2015\Projects\CSCI262 Lab03\CSCI262 Lab03\CSCI262 Lab03.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp membercheck.cpp simplewordsearch.cpp
-         simplewordsearch.cpp
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2065: 'Vector': undeclared identifier
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2065: 'string': undeclared identifier
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2065: 'player': undeclared identifier
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2065: 'dictionary': undeclared identifier
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\simplewordsearch.cpp(1): error C2448: 'points': function-style initializer appears to be a function definition
-         membercheck.cpp
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\membercheck.cpp(1): error C2143: syntax error: missing ';' before '<'
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\membercheck.cpp(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\membercheck.cpp(3): error C2143: syntax error: missing ';' before '{'
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\membercheck.cpp(3): error C2447: '{': missing function header (old-style formal list?)
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(10): warning C4018: '<': signed/unsigned mismatch
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(15): warning C4018: '<': signed/unsigned mismatch
-         Generating Code...
-     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(59): error C4716: 'whos_dishonest': must return a value
-     1>Done Building Project "Z:\adit\My Documents\Visual Studio 2015\Projects\CSCI262 Lab03\CSCI262 Lab03\CSCI262 Lab03.vcxproj" (Rebuild target(s)) -- FAILED.
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(78): warning C4018: '<': signed/unsigned mismatch
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(98): warning C4018: '<': signed/unsigned mismatch
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(99): warning C4018: '<': signed/unsigned mismatch
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(103): warning C4018: '<': signed/unsigned mismatch
+     1>z:\adit\my documents\visual studio 2015\projects\csci262 lab03\csci262 lab03\main.cpp(128): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\adit\My Documents\Visual Studio 2015\Projects\CSCI262 Lab03\Debug\CSCI262 Lab03.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Z:\adit\My Documents\Visual Studio 2015\Projects\CSCI262 Lab03\Debug\CSCI262 Lab03.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\adit\My Documents\Visual Studio 2015\Projects\CSCI262 Lab03\Debug\CSCI262 Lab03.lib" /MACHINE:X86 Debug\Main.obj
+         CSCI262 Lab03.vcxproj -> Z:\adit\My Documents\Visual Studio 2015\Projects\CSCI262 Lab03\Debug\CSCI262 Lab03.exe
+     1>Done Building Project "Z:\adit\My Documents\Visual Studio 2015\Projects\CSCI262 Lab03\CSCI262 Lab03\CSCI262 Lab03.vcxproj" (Rebuild target(s)).
 
-Build FAILED.
+Build succeeded.
 
 Time Elapsed 00:00:02.15
